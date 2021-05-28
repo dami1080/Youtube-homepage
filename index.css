@@ -1,0 +1,152 @@
+.logo {
+    height: 40px;
+}
+nav {
+    display: flex;
+    width: 100%;
+}
+#search {
+    height: 24px;
+    width: 500px;
+    
+    
+}
+.btn {
+   height: 30px;
+   
+}
+.apps {
+    
+    height: 40px;
+}
+.nav-right {
+    display: flex;
+    justify-content: space-between;
+    width: 13%;
+    position: absolute;
+    right: 0;
+}
+.middle {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    
+    margin-left: 300px;
+}
+.menu {
+    height: 30px;
+}
+.nav-left {
+    display: flex;
+}
+span img {
+    height: 20px;
+    margin-left: 10px;
+}
+.share-button {
+    border: none;
+    outline: none;
+    font-weight: bolder;
+    height:30px;
+    width: 70px;
+}
+.counter {
+    display: flex;
+    position: relative;
+    top: 0;
+    left: 0;
+
+}
+.counter-left-side {
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+.counter-right-side{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.subscribe-btn {
+    background-color: rgba(255, 0 ,0);
+    border: none;
+    outline: none;
+    font-weight: bolder;
+    cursor: pointer;
+    color: rgba(255, 255, 255);
+}
+.description {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.video-upload label {
+    font-size: 20px;
+    margin-left: 20px;
+}
+.video-upload {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.video-description {
+    margin-left: 60px;
+    margin-top: 20px;
+}
+iframe {
+    border: 0;
+}
+.container {
+   width: 60%; 
+   margin-top: 90px;
+}
+hr {
+   margin-top: 30px; 
+}
+aside {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin-top: 90px;
+}
+ul {
+    list-style-type: none;
+    display: inline-block;
+}
+aside li {
+   height: 150px; 
+   margin-bottom: 20px;
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   position: relative;
+   top: 0;
+   left: 0;
+   cursor: pointer;
+}
+aside li img {
+    position: absolute;
+    height: 100%;
+    margin-left: 20px;
+    top: 0;
+    left: 0;
+}
+main {
+   display: flex; 
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   z-index: 0;
+   margin-left: 1%;
+   margin-right: 1%;
+}
+aside li div {
+    height: 100%;
+    width: 40%;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
